@@ -1,3 +1,4 @@
+//finds the 10 001st prime number?
 #include <cstdio>
 #include <cstdlib>
 

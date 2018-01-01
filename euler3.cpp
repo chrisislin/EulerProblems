@@ -6,6 +6,7 @@
 //x is now x / factor(f) which results in new x thanks to math
 //largest factor is now the f that successfully did the division
 //once it reaches 1, it ends and couts the largest_factor
+//finds largest factor of 600851475143
 #include <iostream>
 using namespace std;
 

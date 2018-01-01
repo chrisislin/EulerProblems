@@ -1,3 +1,4 @@
+//Finds the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
 //loops to 100
 //x is x+(i^2)
 //y is y+i

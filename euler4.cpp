@@ -1,7 +1,7 @@
-
+//Find the largest palindrome made from the product of two 3-digit numbers
 #include <iostream>
 #include <sstream>
-using namespace std; //learn to avoid this... for now, not a big deal
+using namespace std; 
 
 //iterate through a string to check if it's a palindrome
 bool is_palin(const string &s) //&s for address, pointer

@@ -1,3 +1,3 @@
 # EulerProblems
-Well you know some Euler problems from the site.
-Pretty much a bunch of algorithms to practice on.
+Some eulerproblems for practice.
+I totally didn't [redacted] on any of this, I don't swear.

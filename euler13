@@ -1,0 +1,29 @@
+//What is the value of the first triangle number to have over five hundred divisors?
+#include <cstdio>
+#include <iostream>
+#include "projectEulerProblem13.h" //data is stored in char data[100][51] in this file.
+ 
+int main ()
+{
+int x, y, columnSum[50], carry = 0;
+ 
+for (x = 49; x >= 0; x--)
+{
+columnSum[x] = carry;
+for (y = 0; y < 100; y++)
+{
+columnSum[x] += (int)data[y][x] - 48;
+}
+ 
+carry = columnSum[x] / 10;
+}
+ 
+std::cout << carry << std::endl;
+ 
+for (x = 0; x < 50; x++)
+{
+std::cout << (columnSum[x] % 10) << std::endl;
+}
+ 
+return 0;
+}
